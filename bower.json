@@ -1,0 +1,28 @@
+{
+  "name": "ci-user",
+  "version": "0.1.9",
+  "description": "Common utils used between different cityindex applications.",
+  "main": "src/user.service.js",
+  "authors": [
+    "Pablo Petran <pablo.petran@cityindex.com>",
+    "Nestor Britez <nestor.britez@cityindex.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.28",
+    "angular-mocks": "~1.2.28",
+    "angular-ui-router": "~0.2.15",
+    "lodash": "~3.10.0",
+    "ci-http": "git@github.com:pablonp/ci-http.git",
+    "ci-params": "git@github.com:pablonp/ci-params.git",
+    "ci-config": "git@github.com:pablonp/ci-config.git",
+    "ci-call2api": "git@github.com:pablonp/ci-call2api.git"
+  }
+}
