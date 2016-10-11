@@ -1,6 +1,6 @@
 {
   "name": "ci-user",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Common utils used between different cityindex applications.",
   "main": "src/user.service.js",
   "authors": [
